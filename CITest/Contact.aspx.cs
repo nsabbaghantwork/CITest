@@ -11,7 +11,7 @@ namespace CITest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Title = "koko asdasd nour loloasdasd";
+            Title = "koko asdasd nour loloasdasdasd asdas d";
         }
     }
 }
