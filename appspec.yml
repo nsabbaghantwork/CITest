@@ -6,5 +6,7 @@ files:
   
 hooks:
   BeforeInstall:
-    - location: .\StageArtifact.ps1
+    #- location: .\StageArtifact.ps1
     - location: .\CreateWebSite.ps1
+  AfterInstall:
+    - location: .\StageArtifact.ps1
