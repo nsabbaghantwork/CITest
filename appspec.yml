@@ -9,4 +9,5 @@ hooks:
     #- location: .\StageArtifact.ps1
     - location: .\CreateWebSite.ps1
   AfterInstall:
+    - location: .\StopApp.ps1
     - location: .\StageArtifact.ps1
