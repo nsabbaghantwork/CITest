@@ -5,9 +5,12 @@ files:
     destination: C:\temp\WebApp\CI_Test
   
 hooks:
-  BeforeInstall:
+  #BeforeInstall:
     #- location: .\StageArtifact.ps1
-    - location: .\CreateWebSite.ps1
+    #- location: .\CreateWebSite.ps1
   AfterInstall:
     - location: .\StopApp.ps1
+    - location: .\DatabaseExecuter.ps1
     - location: .\StageArtifact.ps1
+  ApplicationStart:
+    - location: .\StartApp.ps1
