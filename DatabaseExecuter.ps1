@@ -4,7 +4,7 @@ $TempDeplyomentFolder = "C:\temp\WebApp\CI_Test\StageArtifact.ps1"
 function StopDeployment()
 {
    Remove-Item "C:\temp\WebApp\CI_Test\StageArtifact.ps1" -Recurse
-   Remove-Item "C:\temp\WebApp\CI_Test\CI_Test" -Recurse
+   Remove-Item "C:\temp\WebApp\CI_Test\CITest" -Recurse
 		iisreset /start
 		exit
 }
