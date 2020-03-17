@@ -1,8 +1,14 @@
-USE [Test_Table]
-BACKUP DATABASE [Test_Table] TO  DISK = N'C:\BACKUP\backup.bak'
+USE [CI_DB_Test]
 
 INSERT INTO [dbo].[Test_Table]
            ([Name])
      VALUES
            ('test1')
+GO
+
+
+  INSERT INTO [dbo].[Child]
+           (TestId)
+     VALUES
+           (100 )
 GO
