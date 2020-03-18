@@ -7,8 +7,8 @@ INSERT INTO [dbo].[Test_Table]
 GO
 
 
-  INSERT INTO [dbo].[Child]
-           (TestId)
-     VALUES
-           (100 )
+--  INSERT INTO [dbo].[Child]
+   --        (TestId)
+  --   VALUES
+      --     (100 )
 GO
