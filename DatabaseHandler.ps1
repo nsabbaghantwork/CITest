@@ -1,0 +1,1 @@
+﻿throw "Bad thing happened"
