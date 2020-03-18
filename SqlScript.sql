@@ -1,9 +1,9 @@
-USE [CI_DB_Test]
+--USE [CI_DB_Test]
 
 INSERT INTO [dbo].[Test_Table]
            ([Name])
      VALUES
-           ('test1')
+           ('test1 koko')
 GO
 
 
